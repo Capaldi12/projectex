@@ -25,4 +25,11 @@ public class PEXItems {
     // Here all added matters are stored
     public static final Map<MatterType, RegistryObject<Matter>> MATTERS = Matter.registerMatterItems(ITEMS);
 
+    // Convenience methods to get respective matter items from matter types (or their ordinal)
+    public static RegistryObject<Matter> getMatter(MatterType type) {
+        return MATTERS.get(type);
+    }
+    public static RegistryObject<Matter> getMatter(int ordinal) {
+        return MATTERS.get(MatterType.fromOrdinal(ordinal));
+    }
 }

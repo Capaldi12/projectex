@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "projectex:yellow_matter_h"
+    ]
+  },
+  "criteria": {
+    "has_lime_matter_h": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "projectex:lime_matter"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "projectex:yellow_matter_h"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lime_matter_h",
+      "has_the_recipe"
+    ]
+  ]
+}

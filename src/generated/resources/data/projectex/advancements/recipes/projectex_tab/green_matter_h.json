@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "projectex:green_matter_h"
+    ]
+  },
+  "criteria": {
+    "has_cyan_matter_h": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "projectex:cyan_matter"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "projectex:green_matter_h"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cyan_matter_h",
+      "has_the_recipe"
+    ]
+  ]
+}

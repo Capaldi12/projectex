@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "projectex:white_matter_h"
+    ]
+  },
+  "criteria": {
+    "has_orange_matter_h": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "projectex:orange_matter"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "projectex:white_matter_h"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_matter_h",
+      "has_the_recipe"
+    ]
+  ]
+}

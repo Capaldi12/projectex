@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FMF",
+    "FMF",
+    "FMF"
+  ],
+  "key": {
+    "M": {
+      "item": "projectex:blue_matter"
+    },
+    "F": {
+      "item": "projecte:aeternalis_fuel"
+    }
+  },
+  "result": {
+    "item": "projectex:cyan_matter"
+  }
+}

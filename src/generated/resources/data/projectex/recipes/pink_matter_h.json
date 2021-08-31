@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "MMM",
+    "FFF"
+  ],
+  "key": {
+    "M": {
+      "item": "projectex:magenta_matter"
+    },
+    "F": {
+      "item": "projecte:aeternalis_fuel"
+    }
+  },
+  "result": {
+    "item": "projectex:pink_matter"
+  }
+}

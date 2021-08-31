@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "projectex:fading_matter_v"
+    ]
+  },
+  "criteria": {
+    "has_white_matter_v": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "projectex:white_matter"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "projectex:fading_matter_v"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_white_matter_v",
+      "has_the_recipe"
+    ]
+  ]
+}
